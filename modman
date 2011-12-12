@@ -1,0 +1,4 @@
+bootstrap.xml   app/etc/modules/Danslo_GooglePlusFeed.xml
+code            app/code/local/Danslo/GooglePlusFeed/
+design          app/design/frontend/base/default/template/googleplusfeed/
+

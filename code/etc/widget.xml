@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgets>
+    <googleplusfeed_feed type="googleplusfeed/feed" translate="name description" module="googleplusfeed">
+        <name>Google Plus Feed</name>
+        <description>Adds a Google Plus Feed.</description>
+        <parameters>
+            <user_id translate="label">
+                <required>1</required>
+                <visible>1</visible>
+                <label>User ID</label>
+                <type>text</type>
+            </user_id>
+            <api_key translate="label">
+                <required>1</required>
+                <visible>1</visible>
+                <label>API Key</label>
+                <type>text</type>
+            </api_key>
+            <max_results translate="label">
+                <required>0</required>
+                <visible>1</visible>
+                <label>Maximum number of results</label>
+                <type>text</type>
+            </max_results>
+        </parameters>
+    </googleplusfeed_feed>
+</widgets>

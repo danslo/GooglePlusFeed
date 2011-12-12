@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <global>
+        <helpers>
+            <googleplusfeed>
+                <class>Danslo_GooglePlusFeed_Helper</class>
+            </googleplusfeed>
+        </helpers>
+        <blocks>
+            <googleplusfeed>
+                <class>Danslo_GooglePlusFeed_Block</class>
+            </googleplusfeed>
+        </blocks>
+        <models>
+            <googleplusfeed>
+                <class>Danslo_GooglePlusFeed_Model</class>
+                <resourceModel>googleplusfeed_resource</resourceModel>
+            </googleplusfeed>
+            <googleplusfeed_resource>
+                <class>Danslo_GooglePlusFeed_Model_Resource</class>
+            </googleplusfeed_resource>
+        </models>
+    </global>
+    <default>
+        <googleplusfeed>
+            <api_url>https://www.googleapis.com/plus/v1</api_url>
+            <cache_lifetime>300</cache_lifetime>
+        </googleplusfeed>
+    </default>
+</config>

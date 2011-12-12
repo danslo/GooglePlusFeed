@@ -1,0 +1,14 @@
+<h2 class="googleplusfeed_header"><?php echo $this->getMessageCollection()->getTitle(); ?></h2>
+<ul class="googleplusfeed_messages">
+    <?php foreach ($this->getMessageCollection() as $message): ?>
+        <li>
+            <div class="googleplusfeed_actor">
+                <?php $actor = $message->getActor(); ?>
+                <?php echo Mage::helper('googleplusfeed')->__('By:'); ?> <?php echo $actor['displayName']; ?>
+            </div>
+            <div class="googleplusfeed_title">
+                <?php echo $message->getTitle(); ?>
+            </div>
+        </li>
+    <?php endforeach; ?>
+</ul>
